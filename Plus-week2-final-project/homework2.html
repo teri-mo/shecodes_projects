@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>My weather application</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 class="current-city">Paris</h1>
+            <p class="current-details">
+              Saturday 15:32, moderate rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="current-temperature">
+            <span class="current-temperature-emoji">☀️</span>
+            <span class="current-temperature-number">14</span>
+            <span class="current-temperature-celsius">°C</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a
+            href="https://www.shecodes.io/graduates/57585-tereza-mohaupt"
+            target="_blank"
+            >Tereza</a
+          >
+          and is
+          <a
+            href="https://github.com/teri-mo/shecodes_projects/tree/main"
+            target="_blank"
+          >
+            on GitHub</a
+          >.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
